@@ -1,61 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: #283036;
+}
+
+.container {
+  width: 100%;
+  max-width: 1264px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
 
 /* HEADER STYLE STARTED */
+
+.site__header {
+  padding: 26px 0;
+}
+
+.header__section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__section-logo {
+  width: 140px;
+  height: 38px;
+}
+
+.header__nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 431px;
+}
+
+.header__nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #ffffff8c;
+}
+
+.down-icon{
+  display: flex;
+  align-items: center;
+}
+
+.down-icon i{
+  font-size: 22px;
+}
+
+.header__section-btn a {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.header__btn-login{
+  margin-right: 41px;
+  color: #FFFFFF8C;
+}
+
+.header__btn-signup{
+  padding: 12px 28px;
+  background-color: #FF6E30;
+  border-radius: 8px;
+  color: #FDF5FF;
+}
+
 /* HEADER STYLE FINISHED */
-
-
-
-
 
 /* HERO STYLE STARTED */
 /* HERO STYLE FINISHED */
 
-
-
-
-
-
 /* TOOLS STYLE STARTED */
 /* TOOLS STYLE FINISHED */
-
-
-
-
 
 /* HEADER STYLE STARTED */
 /* HEADER STYLE FINISHED */
 
-
-
-
-
 /* BRANDS STYLE STARTED */
 /* BRANDS STYLE FINISHED */
-
-
-
-
 
 /* NEWSCOMERS STYLE STARTED */
 /* NEWSCOMERS STYLE FINISHED */
 
-
-
-
-
 /* SLIDE STYLE STARTED */
 /* SLIDE STYLE FINISHED */
 
-
-
-
-
 /* EMAIL STYLE STARTED */
 /* EMAIL STYLE FINISHED */
-
-
-
-
 
 /* FOOTER STYLE STARTED */
 /* FOOTER STYLE FINISHED */
