@@ -694,13 +694,14 @@ a {
 
 /* NEWSCOMERS STYLE FINISHED */
 
-/* SLIDE STYLE STARTED */ 
+/* SLIDE STYLE STARTED */
 
-.slide__section{
-  padding: 200px 0;
+.slide__section {
+  padding-top: 240px;
+  padding-bottom: 250px;
 }
 
-.slide__section-wrapper{
+.slide__section-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -713,24 +714,24 @@ a {
   margin-bottom: 100px;
 }
 
-.slide__section-content::before{
+.slide__section-content::before {
   content: "<";
-  color: #FFFFFF47;
+  color: #ffffff47;
   font-size: 50px;
   cursor: pointer;
   margin-right: 142px;
 }
 
-.slide__section-content::after{
+.slide__section-content::after {
   content: ">";
-  color: #FFFFFF47;
+  color: #ffffff47;
   font-size: 50px;
-  color: #FF6E30;
+  color: #ff6e30;
   cursor: pointer;
   margin-left: 142px;
 }
 
-.slide__section-avatar{
+.slide__section-avatar {
   margin-right: 70px;
 }
 
@@ -767,20 +768,85 @@ a {
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.015em;
-  color: #FFFFFFC7;
+  color: #ffffffc7;
 }
 
-.slide__section-pagination{
+.slide__section-pagination {
   width: 44px;
   height: 6px;
+  margin-right: 100px;
   border-radius: 4px;
   background-color: #283036;
-  box-shadow: 62px 1px 0px 2px #FF6E30, 124px 1px 0px #283036;
+  box-shadow: 62px 1px 0px 2px #ff6e30, 124px 1px 0px #283036;
 }
 
 /* SLIDE STYLE FINISHED */
 
 /* EMAIL STYLE STARTED */
+
+.email__section-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email__section-title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62px;
+  color: #ffffffe5;
+  margin-bottom: 25px;
+}
+
+.email__section-desc {
+  width: 427px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #ffffff8c;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.email__section-box {
+  display: flex;
+  align-items: center;
+  width: 549px;
+  height: 64px;
+  background-color: #ffffff1a;
+  padding-left: 24px;
+  border-radius: 15px;
+}
+
+.email__box-input {
+  width: 380px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff61;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding-right: 24px;
+}
+
+.email__box-input::placeholder{
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+color: #FFFFFF61;
+}
+
+.email__box-btn {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #FFFFFF;
+  background-color: #FF6E30;
+  padding: 12px 36px;
+  border-radius: 8px;
+}
 
 /* EMAIL STYLE FINISHED */
 
